@@ -21,14 +21,14 @@ export const commandAliases = {
     'send': 'pay',
 
     'ping': 'ping',
-    'help': 'help',
+    'meow': 'help',
     'h': 'help',
     'info': 'help',
 
     'ban': 'ban',
     'kick': 'kick',
     'mute': 'timeout',
-    'warn': 'warn',
+    'hmph': 'warn',
     'clear': 'purge',
     'purge': 'purge',
     'untimeout': 'untimeout',
