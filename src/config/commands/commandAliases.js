@@ -6,13 +6,14 @@
 export const commandAliases = {
     'bal': 'balance',
     'money': 'balance',
-    'cash': 'balance',
+    'baw': 'balance',
 
     'dep': 'deposit',
     'with': 'withdraw',
     'work': 'work',
     'daily': 'daily',
     'gamble': 'gamble',
+    'gambwe': 'gamble',
     'bet': 'gamble',
     'rob': 'rob',
     'crime': 'crime',
