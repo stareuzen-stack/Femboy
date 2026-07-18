@@ -52,7 +52,7 @@ export const botConfig = {
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
-    prefix: process.env.PREFIX || "!",
+    prefix: process.env.PREFIX || ":3",
   },
 
   // =========================
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Femboy",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,15 +161,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Nyan",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Nyans",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: ":3",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 333,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
