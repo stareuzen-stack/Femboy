@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Custom Status", // required by Discord API, not shown in the client
         state: ":3",     // this is what people actually see
-        type: 0,               // Custom
+        type: 4,               // Custom
       },
     ],
   },
@@ -94,7 +94,7 @@ export const botConfig = {
     colors: {
       // Main brand colors.
       primary: "#ADD8E6",
-      secondary: "#2F3136",
+      secondary: "#ADD8E6",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -169,17 +169,17 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 333,
+    startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 1000,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 24,
+    workMax: 440,
 
     // Beg command random payout range.
     begMin: 5,
