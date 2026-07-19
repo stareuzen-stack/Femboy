@@ -175,7 +175,7 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 1000000000000,
+    dailyAmount: 1000,
 
     // Work command random payout range.
     workMin: 64,
@@ -187,7 +187,7 @@ export const botConfig = {
 
     // Command cooldowns (milliseconds).
     cooldowns: {
-      daily: 0 * 0 * 0 * 0,
+      daily: 24 * 60 * 60 * 1000,
       work: 60 * 60 * 1000,
       crime: 2 * 60 * 60 * 1000,
       rob: 4 * 60 * 60 * 1000,
